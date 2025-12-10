@@ -8,3 +8,5 @@
 	format = ssh
 [commit]
 	gpgsign = true
+[gpg "ssh"]
+	allowedSignersFile = /home/jay/.ssh/allowed_signers
