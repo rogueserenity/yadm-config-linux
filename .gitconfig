@@ -3,10 +3,11 @@
 [user]
 	name = jay
 	email = jay@rogueserenity.com
-	signingkey = /home/jay/.ssh/id_ed25519.pub
+	signingkey = ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIB/1VQnnNxmGNJFzwMFvZZO4muos5R7SL4CAH+/E/PQr
 [gpg]
 	format = ssh
 [commit]
 	gpgsign = true
 [gpg "ssh"]
 	allowedSignersFile = /home/jay/.ssh/allowed_signers
+	program = /opt/1Password/op-ssh-sign
