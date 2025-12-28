@@ -1,6 +1,0 @@
-[Desktop Entry]
-Exec=/home/jay/bin/openrgb-load-profile.sh
-Icon=application-x-shellscript
-Name=openrgb-load-profile.sh
-Type=Application
-X-KDE-AutostartScript=true
